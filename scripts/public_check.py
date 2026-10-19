@@ -10,7 +10,7 @@ from urllib.parse import urlsplit
 
 root = Path(__file__).resolve().parents[1]
 errors = set()
-allowed_roots = {'.github', 'app', 'config', 'docs', 'public', 'scripts', 'server', 'tests'}
+allowed_roots = {'.github', '.githooks', 'app', 'config', 'docs', 'public', 'scripts', 'server', 'tests'}
 ignored = {'.git', 'node_modules', 'dist', '__pycache__'}
 patterns = {
     'private filesystem path': rb'/(?:Users|home)/[^/\s]+/',

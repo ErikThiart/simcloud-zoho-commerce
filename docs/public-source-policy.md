@@ -16,4 +16,10 @@ Run `npm run check` before committing. `scripts/public_check.py` checks the sour
 
 Runtime ZIPs use the explicit list in `config/package-files.json`. Adding a source file never adds it to a runtime package automatically. The build never reads the merchant's private configuration.
 
+Enable the included pre-push check:
+
+    git config core.hooksPath .githooks
+
+It runs before Git transmits a push. CI checks the complete fetched history rather than only a shallow copy of the latest commit.
+
 For security concerns, use [private reporting](../SECURITY.md), not a public issue containing sensitive evidence.
