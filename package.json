@@ -1,0 +1,16 @@
+{
+  "name": "simcloud-zoho-commerce",
+  "version": "0.2.0-alpha.2",
+  "private": true,
+  "description": "Open-source SIMcloud airtime, data, VAS and electricity integration for Zoho Commerce",
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs && php tests/server.php && php tests/concurrency.php && python3 tests/http_boundary.py && python3 tests/build_privacy.py",
+    "build": "python3 scripts/build.py",
+    "preview": "python3 -m http.server 8128 --bind 127.0.0.1",
+    "check": "python3 scripts/check.py && python3 scripts/public_check.py"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

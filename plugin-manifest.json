@@ -1,0 +1,25 @@
+{
+  "locale": [
+    "en"
+  ],
+  "service": "COMMERCE",
+  "whiteListedDomains": [],
+  "modules": {
+    "widgets": [
+      {
+        "location": "application.allpages.sidebar",
+        "name": "SIMcloud",
+        "url": "/app/widget.html",
+        "logo": "/app/img/logo.png"
+      },
+      {
+        "location": "salesorder.details.sidebar",
+        "name": "SIMcloud order status",
+        "url": "/app/widget.html",
+        "logo": "/app/img/logo.png"
+      }
+    ]
+  },
+  "config": [],
+  "usedConnections": []
+}

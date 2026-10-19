@@ -1,0 +1,14 @@
+{
+  "products": [
+    {"sku":"demo-data-1","service":"data","name":"MTN 1GB · 30 days","amount":"29.00","logo":"networks/mtn.jpg"},
+    {"sku":"demo-data-2","service":"data","name":"Vodacom 2GB · 30 days","amount":"69.00","logo":"networks/vodacom.jpg"},
+    {"sku":"demo-data-3","service":"data","name":"Cell C 1.5GB · 30 days","amount":"49.00","logo":"networks/cellc.jpg"},
+    {"sku":"demo-data-4","service":"data","name":"Telkom 3GB · 30 days","amount":"89.00","logo":"networks/telkom.jpg"},
+    {"sku":"demo-vas-1","service":"vas","name":"Shoprite voucher — R100.00","amount":"100.00","logo":"vas/shoprite.jpg"},
+    {"sku":"demo-vas-2","service":"vas","name":"Checkers voucher — R100.00","amount":"100.00","logo":"vas/checkers.jpg"},
+    {"sku":"demo-vas-3","service":"vas","name":"Pick n Pay voucher — R100.00","amount":"100.00","logo":"vas/picknpay.jpg"},
+    {"sku":"demo-vas-4","service":"vas","name":"Takealot voucher — R200.00","amount":"200.00","logo":"vas/takealot-com.jpg"},
+    {"sku":"demo-vas-5","service":"vas","name":"Spur voucher — R150.00","amount":"150.00","logo":"vas/spur.jpg"}
+  ],
+  "warnings": ["Demonstration products and prices only. Connect SIMcloud for the current catalogue."]
+}

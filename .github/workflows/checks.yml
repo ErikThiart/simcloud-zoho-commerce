@@ -1,0 +1,30 @@
+name: Verify extension
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php: ['8.2', '8.4', '8.5']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          extensions: pdo_sqlite, sodium, curl, openssl
+          coverage: none
+      - run: find server public tests -name '*.php' -exec php -l {} \;
+      - run: npm test
+      - run: npm run check
+      - run: npm run build
+      - run: python3 scripts/test_packages.py
+      - uses: actions/upload-artifact@v4
+        if: matrix.php == '8.5'
+        with:
+          name: simcloud-zoho-development-packages
+          path: dist/

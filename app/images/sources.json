@@ -1,0 +1,163 @@
+[
+  {
+    "file": "networks/mtn.jpg",
+    "source": "https://simcloud.co.za/img/mtn.jpg",
+    "sha256": "07c7c56778b7fc752681c100d297bf79af64e6aba437d80d4096387f2648d6f1",
+    "bytes": 17120,
+    "retrieved": "2026-10-19"
+  },
+  {
+    "file": "networks/vodacom.jpg",
+    "source": "https://simcloud.co.za/img/vodacom.jpg",
+    "sha256": "d312c228fe3feade81623618fb3ca29cd5db2df97ce3516f10f443abe28e093c",
+    "bytes": 15792,
+    "retrieved": "2026-10-19"
+  },
+  {
+    "file": "networks/cellc.jpg",
+    "source": "https://simcloud.co.za/img/cellc.jpg",
+    "sha256": "723567a263c0a6bdf05cfd2a32d6e6f8c7ad58e33c20c292351813b3b2a6fd5d",
+    "bytes": 12986,
+    "retrieved": "2026-10-19"
+  },
+  {
+    "file": "networks/telkom.jpg",
+    "source": "https://simcloud.co.za/img/telkom.jpg",
+    "sha256": "3d2a27de96802d57235c788e994459baa35b86bee7da39600e2c77071d0eacf3",
+    "bytes": 10710,
+    "retrieved": "2026-10-19"
+  },
+  {
+    "file": "vas/bolt.jpg",
+    "source": "https://simcloud.co.za/img/vas_logos/bolt.jpg",
+    "sha256": "63f46df04f9336f7a268605c38397a9dbc976cf1b035b00d186601a9f484d0d7",
+    "bytes": 5055,
+    "retrieved": "2026-10-19"
+  },
+  {
+    "file": "vas/checkers.jpg",
+    "source": "https://simcloud.co.za/img/vas_logos/checkers.jpg",
+    "sha256": "c72a3c59bba545ed25c84c7f750f19ce4d618279fd71ebb268c4161afef343a9",
+    "bytes": 6387,
+    "retrieved": "2026-10-19"
+  },
+  {
+    "file": "vas/golfersclub.jpg",
+    "source": "https://simcloud.co.za/img/vas_logos/golfersclub.jpg",
+    "sha256": "ab8ddb84f9389f9d6fcfe63b94c0bb6b8da847a68d4f97966a8678a0f912eb7e",
+    "bytes": 15205,
+    "retrieved": "2026-10-19"
+  },
+  {
+    "file": "vas/hussarsgrill.jpg",
+    "source": "https://simcloud.co.za/img/vas_logos/hussarsgrill.jpg",
+    "sha256": "2dd31a41602db3e25c6f27046b76b1c0e5d03ee4bbda788e132ed01e09b4acb6",
+    "bytes": 12869,
+    "retrieved": "2026-10-19"
+  },
+  {
+    "file": "vas/johndory.jpg",
+    "source": "https://simcloud.co.za/img/vas_logos/johndory.jpg",
+    "sha256": "9a1a3db3b2b99659e7cb569671ad1c8fd13a3c167875c367ea1670b66c212072",
+    "bytes": 12921,
+    "retrieved": "2026-10-19"
+  },
+  {
+    "file": "vas/medirite.jpg",
+    "source": "https://simcloud.co.za/img/vas_logos/medirite.jpg",
+    "sha256": "2a07358e945c11bb1d7259596383417d552762b4742ea20741ccd38372e40130",
+    "bytes": 6241,
+    "retrieved": "2026-10-19"
+  },
+  {
+    "file": "vas/netflorist.jpg",
+    "source": "https://simcloud.co.za/img/vas_logos/netflorist.jpg",
+    "sha256": "e602dc25257d9b24f5a7d4101e188961491dbf895e7dd22baebc2c19ddf07aac",
+    "bytes": 8916,
+    "retrieved": "2026-10-19"
+  },
+  {
+    "file": "vas/outdoor-warehouse.jpg",
+    "source": "https://simcloud.co.za/img/vas_logos/outdoor-warehouse.jpg",
+    "sha256": "5ad30734d6b50dfeeb9d6a1a1651ee48caf9b289875a8574433ac6321d2647b1",
+    "bytes": 10963,
+    "retrieved": "2026-10-19"
+  },
+  {
+    "file": "vas/panarottis.jpg",
+    "source": "https://simcloud.co.za/img/vas_logos/panarottis.jpg",
+    "sha256": "73d1dcb9be95866e89d1010aab04d6a41e9853e04932c365cf26465414d4cdca",
+    "bytes": 5625,
+    "retrieved": "2026-10-19"
+  },
+  {
+    "file": "vas/pep.jpg",
+    "source": "https://simcloud.co.za/img/vas_logos/pep.jpg",
+    "sha256": "abd97507f04911d31f80480a19d58958f031c53b481d8232763e14bd42e1c961",
+    "bytes": 8039,
+    "retrieved": "2026-10-19"
+  },
+  {
+    "file": "vas/pephome.jpg",
+    "source": "https://simcloud.co.za/img/vas_logos/pephome.jpg",
+    "sha256": "1aca8a5e4a1da403fb725d8caadeef9c34a49d52df6e5c2facc0b90f745b029b",
+    "bytes": 12907,
+    "retrieved": "2026-10-19"
+  },
+  {
+    "file": "vas/picknpay.jpg",
+    "source": "https://simcloud.co.za/img/vas_logos/picknpay.jpg",
+    "sha256": "3808ba34f25c7c4a09f9a5effe3355d447501a13c085276a7890da787409ce3f",
+    "bytes": 5707,
+    "retrieved": "2026-10-19"
+  },
+  {
+    "file": "vas/rocomamas.jpg",
+    "source": "https://simcloud.co.za/img/vas_logos/rocomamas.jpg",
+    "sha256": "dd97de769c9e9488d1134350216d8caa338e680d31022a0553c2d42a939e6b62",
+    "bytes": 10651,
+    "retrieved": "2026-10-19"
+  },
+  {
+    "file": "vas/shoprite.jpg",
+    "source": "https://simcloud.co.za/img/vas_logos/shoprite.jpg",
+    "sha256": "c5485b52f4df75b6fff2ec12521754f165318e00656fade04c62d97f0aea5b99",
+    "bytes": 7740,
+    "retrieved": "2026-10-19"
+  },
+  {
+    "file": "vas/spur.jpg",
+    "source": "https://simcloud.co.za/img/vas_logos/spur.jpg",
+    "sha256": "35a7ed539b4d12aea20a1f54a0dfaa2a3a42d7f7d22160d50d7e3a53e68835ab",
+    "bytes": 17306,
+    "retrieved": "2026-10-19"
+  },
+  {
+    "file": "vas/takealot-com.jpg",
+    "source": "https://simcloud.co.za/img/vas_logos/takealot-com.jpg",
+    "sha256": "7ad0ba5934366172dc09ee2d46e38bd8517cab4803c234e28a40aad1487bf6cb",
+    "bytes": 6066,
+    "retrieved": "2026-10-19"
+  },
+  {
+    "file": "vas/usave.jpg",
+    "source": "https://simcloud.co.za/img/vas_logos/usave.jpg",
+    "sha256": "61c8b7e279473161fe0c23e6e48f235f4289776533d18f40ce3b7d04e48df3c4",
+    "bytes": 6982,
+    "retrieved": "2026-10-19"
+  },
+  {
+    "file": "vas/woolworths.jpg",
+    "source": "https://simcloud.co.za/img/vas_logos/woolworths.jpg",
+    "sha256": "b931b52794c7515aca37c8b26d1580141132deb9c683a9091e653b1ef5a9b072",
+    "bytes": 6092,
+    "retrieved": "2026-10-19"
+  },
+  {
+    "file": "vas/yuppiechef.jpg",
+    "source": "https://simcloud.co.za/img/vas_logos/yuppiechef.jpg",
+    "sha256": "e63bd16ff20dbb781cb7541100d76ed836be9c46eaccc47bc3301c6b07f6d301",
+    "bytes": 4080,
+    "retrieved": "2026-10-19"
+  }
+]

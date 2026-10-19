@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Connect SIMcloud to Zoho Commerce. Import South African data bundles and VAS vouchers with brand logos, and manage airtime and electricity orders.">
+  <title>SIMcloud · Prepaid products for Zoho Commerce</title>
+  <link rel="stylesheet" href="css/widget.css">
+</head>
+<body>
+  <main>
+    <header class="brand"><img src="img/logo.png" alt="SIMcloud" width="60" height="40"><div><strong>SIMcloud</strong><p>Prepaid products, ready for your store.</p></div><span id="mode" class="badge">Not connected</span></header>
+    <aside id="preview" hidden>Demonstration · Sample products and simulated responses. No account is connected.</aside>
+    <nav aria-label="SIMcloud sections"><button type="button" data-tab="setup" aria-selected="true">Get started</button><button type="button" data-tab="catalogue" aria-selected="false">Products</button><button type="button" data-tab="orders" aria-selected="false">Order status</button></nav>
+    <div id="notice" role="status" aria-live="polite"></div>
+    <section id="setup" class="panel">
+      <p class="eyebrow">YOUR STORE, POWERED BY SIMCLOUD</p><h1>Start selling prepaid products.</h1><p class="intro">Bring South African data bundles and VAS vouchers into your catalogue, with the right prices and brand images.</p>
+      <ol class="steps"><li><span>1</span><div><strong>Connect your account</strong><p>Use your own SIMcloud wallet and a secure Zoho connection.</p></div></li><li><span>2</span><div><strong>Load your products</strong><p>Import data bundles and vouchers. Existing products and prices stay yours.</p></div></li><li><span>3</span><div><strong>Check out and go live</strong><p>Test recipient fields, payment verification and delivery before enabling fulfilment.</p></div></li></ol>
+      <div class="actions"><button id="connect" class="primary" type="button" disabled>Load my products</button><a href="https://github.com/ErikThiart/simcloud-zoho-commerce/blob/main/docs/installation.md" target="_blank" rel="noopener noreferrer">Installation guide ↗</a></div>
+      <div id="connection-details" class="details">Checking the extension configuration…</div>
+      <div class="services"><span>Airtime</span><span>Data bundles</span><span>VAS vouchers</span><span>Electricity</span></div>
+    </section>
+    <section id="catalogue" class="panel" hidden>
+      <div class="section-title"><div><p class="eyebrow">YOUR PREPAID CATALOGUE</p><h1>Choose products to import.</h1></div><span id="count" class="badge">0 products</span></div>
+      <p>New products use the SIMcloud API amount as the retail price. Review your tax and margin settings before selling.</p>
+      <div class="filters"><label>Find a product<input id="search" type="search" placeholder="Search bundles or brands"></label><label>Product type<select id="service"><option value="">All types</option><option value="data">Data bundles</option><option value="vas">VAS vouchers</option></select></label></div>
+      <div class="selection"><label><input id="select-all" type="checkbox"> Select visible products</label><button id="import" class="primary" type="button" disabled>Import selected</button></div>
+      <div id="products" class="products"><p class="empty">Connect your account to load the latest catalogue.</p></div>
+      <p id="catalogue-warnings" class="details"></p><p id="import-report" role="status"></p>
+      <details class="fixed"><summary>Add airtime or electricity</summary><form id="fixed-form"><label>Service<select id="fixed-service"><option value="airtime">Airtime</option><option value="electricity">Electricity</option></select></label><label>Network<select id="fixed-network"><option value="mtn">MTN</option><option value="vodacom">Vodacom</option><option value="cellc">Cell C</option><option value="heita">Telkom</option></select></label><label>Face value in rand<input id="fixed-amount" type="number" min="2" max="1000" step="0.01" required></label><button class="primary" type="submit">Add product</button></form><p>For electricity, choose a whole-rand amount from R55 to R1,000. Your payment and recipient setup must be verified before live fulfilment.</p></details>
+    </section>
+    <section id="orders" class="panel" hidden><p class="eyebrow">FULFILMENT</p><h1>Check an order.</h1><p>View delivery progress and provider references. Uncertain purchases are held for review.</p><form id="order-form"><label>Zoho sales order ID<input id="order-id" inputmode="numeric" pattern="[1-9][0-9]{0,29}" required placeholder="Sales order ID"></label><button class="primary" type="submit">Check status</button></form><div id="order-results"></div></section>
+    <footer><span>SIMcloud for Zoho Commerce · Development preview</span><a href="https://github.com/ErikThiart/simcloud-zoho-commerce/issues" target="_blank" rel="noopener noreferrer">Help & support ↗</a></footer>
+  </main>
+  <script src="https://static.zohocdn.com/zohofinance/v2.0/zf_sdk.js"></script>
+  <script src="js/config.js"></script><script src="js/client.js"></script><script src="js/widget.js"></script>
+</body>
+</html>

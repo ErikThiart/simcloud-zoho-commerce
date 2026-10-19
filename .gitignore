@@ -1,0 +1,11 @@
+/node_modules/
+/dist/
+/.env
+/.env.*
+/config.php
+/var/
+/config/*.local.json
+*.sqlite*
+*.log
+.DS_Store
+__pycache__/

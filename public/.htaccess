@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "(?i)(^error_log$|\.(log|sqlite|sqlite-wal|sqlite-shm)$)">
+    Require all denied
+</FilesMatch>
